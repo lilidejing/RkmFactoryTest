@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+      <LinearLayout 
+        android:id="@+id/titleLayouthehddddd"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:gravity="center"
+        android:layout_weight="1"
+        >
+        
+         <TextView 
+       android:id="@+id/wifiTitle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="工厂测试程序V1.0版---按键测试"
+       android:textSize="30sp"
+       />
+    
+        
+    </LinearLayout>
+    
+      <TextView 
+          android:id="@+id/pleasePress"
+          android:layout_width="fill_parent"
+          android:layout_height="0dip"
+          android:textSize="25sp"
+          android:text="请按mic上的上、下、左、右、menu、OK键进行测试"
+          android:layout_weight="1"
+          />
+      <LinearLayout 
+          android:id="@+id/cccc"
+          android:layout_width="fill_parent"
+          android:layout_height="0dip"
+          android:layout_weight="8"
+          android:gravity="center"
+          android:orientation="vertical"
+          >
+          
+          
+          
+          
+          	<LinearLayout 
+          android:id="@+id/ccccddddd"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="300dip"
+         android:orientation="vertical"
+          >
+          <TextView 
+              android:id="@+id/pressKeyText"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="按键值"
+              android:textSize="35sp"
+              
+              />
+          
+          <TextView 
+              android:id="@+id/pressStatusText"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="按键状态"
+              android:textSize="35sp"
+              
+              android:layout_marginTop="20dip"
+              />
+          	
+          
+      </LinearLayout>
+          <TextView 
+              android:id="@+id/pressTimesText"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:text="按键次数"
+              android:textSize="35sp"
+              android:layout_marginTop="20dip"
+              android:paddingLeft="300dip"
+              />
+      </LinearLayout>
+      
+                 
+     <TextView 
+           android:id="@+id/backtip3"
+           android:layout_width="fill_parent"
+           android:layout_height="0dip"
+           android:text="按BACK键退出"
+           android:layout_weight="1"
+           android:gravity="right"
+           android:paddingRight="30dip"
+           android:layout_marginTop="10dip"
+           android:textSize="22sp"
+           />
+    
+
+</LinearLayout>

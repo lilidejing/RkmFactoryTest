@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/wifiIconSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="12dip"
+        
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/wifiInfoL"
+        android:layout_width="wrap_content"
+        android:layout_height="90dip"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/wifiIconSelect" 
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/wifiSsidText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textSize="23sp" />
+        
+         <TextView
+            android:id="@+id/wifiSsidSuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wiwiwiwff"
+        android:layout_width="wrap_content"
+        android:layout_height="90dip"
+        android:layout_marginLeft="40dip"
+        android:layout_toRightOf="@+id/wifiInfoL" 
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/wifiSsidChnel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textSize="23sp" />
+        
+         <TextView
+            android:id="@+id/wifiSsidDb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:textSize="19sp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/wifiIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+         />
+
+</RelativeLayout>
